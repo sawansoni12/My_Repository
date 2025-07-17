@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f56c694c3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">           
+            <nav>
+                <img src="my_logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+              <p>Web Developer</p>
+              <h1>Hi, I'm <span>Sawan</span> Soni<br> from Kota</h1>  
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="my_look.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h4 class="new-font">I'm a passionate frontend web developer and a current college student with a strong foundation in building responsive and user-friendly websites. I specialize in HTML, CSS, JavaScript, and React.js, and enjoy turning creative ideas into interactive digital experiences. As I continue to grow in the tech space, I'm always eager to learn new technologies, solve real-world problems, and collaborate on exciting projects.</h4>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <h2 class="first-class">Frontend Development</h2><br><li>HTML - Sementic, accesible and SEO-friendly markup.</li><br><li>CSS - Responsive design, Flexbox, Grid and Animations.</li><br><li>JavaScript - DOM manipulation, asynchronous programming and modern JS features.</li><br><li>React.js - Component based architecture, state management and React Router.</li><br>
+                            <h2 class="first-class">UI/UX & Design</h2><br><li>Mobile-first and responsive design.</li><br><li>Cross-browser compatibility.</li><br><li>Clean and intuitive user interfaces.</li><br>
+                            <h2 class="first-class">Tools & Workflow</h2><br><li>Version control with Git & GitHub.</li><br><li>Browser Developer Tools.</li><br>
+                            </ul>
+                            </div>     
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <h2 class="first-class">Next24tech Technology & Services</h2><br><li>Developed responsive web applications using HTML, CSS and JavaScript.</li><br><li>Maintained website perfomance by optimizing code and images for faster loading times.</li><br><li>Created custom responsive designs that optimized the website layout for various devices.</li><br><li>Implemented improvements to boost site perfomance.</li><br>
+                        </ul>
+                    </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                             <h2 class="first-class">Engineering College, Bikaner</h2><br><li>Bachelor of Technology - BTech, Computer Science.</li><br><li>Nov 2022 - Apr 2026</li><br>
+                            <h2 class="first-class">New Public School, Kota</h2><br><li>Intermediate Education - PCM</li><br><li>Jul 2019 - May 2021</li><br>
+                            <h2 class="first-class">Kendriya Vidyalaya, Anta</h2><br><li>High School - Mathematics</li><br><br>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I design modern and responsive websites that look great on all devices. My focus is on clean layouts, smooth navigation, and visually appealing elements that reflect the purpose and style of the brand.</p>
+                <a href="#">Learn more</a>
+            </div>
+                <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>I create user interfaces that are both attractive and easy to use. By focusing on user needs, I design seamless experiences that make websites and apps more intuitive, engaging, and enjoyable.</p>
+                <a href="#">Learn more</a>
+                </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>I design mobile and web app interfaces with clear structure, simple navigation, and user-friendly interactions. My goal is to make apps that are not only functional but also visually polished and accessible.</p>
+                <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                        <img src="calculator.jpg">
+                            <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Built a basic yet functional calculator using HTML, CSS, and JavaScript. It performs standard arithmetic operations like addition, subtraction, multiplication, and division. Designed with a clean user interface and responsive layout to work smoothly across all devices. This project helped me strengthen my understanding of DOM manipulation and JavaScript event handling.</p>
+                        <a href="https://sawansoni12.github.io/calc_craft/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                    <div class="work">
+                    <img src="online_app.jpg">
+                       <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Created a front-end clone of the Amazon homepage using only HTML and CSS. The project includes key sections like the header, navigation bar, product listings, banners, and footer—replicating the layout and design of the original site. This project helped me improve my skills in responsive design, layout structuring, and CSS styling.</p>
+                        <a href="https://sawansoni12.github.io/Clone_Commerce/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                    <div class="work">
+                    <img src="rps_game.jpg">
+                       <div class="layer">
+                        <h3>Fun Game</h3>
+                        <p>Built an interactive Rock Paper Scissors game using HTML, CSS, and JavaScript. The game allows users to play against the computer with real-time result display, score tracking, and smooth animations. It features a clean and responsive design for a fun and engaging user experience. This project helped me practice JavaScript logic, DOM manipulation, and event handling.</p>
+                        <a href="https://sawansoni12.github.io/rps_showdown/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sosawan053@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7849894809</p>
+                    <div class="social-icons">
+                    <a href="https://x.com/SawanSoni_"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/sawan-soni/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/sawansoni12"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="my_resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                <div class="copyright">
+                    <p>Copyright © Sawan. Made with <i class="fa-solid fa-heart"></i> by Sawan Soni</p>
+                </div>              
+            </div>
+        </div>
+    </div>
+    <script src="tutorial.js"></script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxx53vJW-3z9uRWvrzWZiz2mZewLs-6gt3QjzKukT5s2pdQvi8lTY8igOHczXzwP2QT/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById('msg')
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
